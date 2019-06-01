@@ -58,5 +58,8 @@ module.exports = class MenuController {
         console.log("Today\'s Date is " + d.getMonth() + "/" + d.getDate() +"/"+ d.getFullYear());
         this.main();
     }
+    getContactCount(){
+        return this.contacts.length
+      }
  
 }
