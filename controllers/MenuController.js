@@ -27,6 +27,7 @@ module.exports = class MenuController {
            this.getDate();
            break;
          case "Exit":
+           console.log(this.remindMe()); 
            this.exit();
          default:
            console.log("Invalid input");
@@ -59,7 +60,11 @@ module.exports = class MenuController {
         this.main();
     }
     getContactCount(){
-        return this.contacts.length
+        return this.contacts.length;
       }
+
+    remindMe(){
+        return "Learning is a life-long pursuit";
+    }
  
 }
