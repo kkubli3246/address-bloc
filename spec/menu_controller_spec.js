@@ -20,8 +20,8 @@ describe("MenuController", () => {
 
     });
     describe("#getReminder()", () => {
-        it("Should return the reminder for the Bloc Address Assignment (Learning is a life-long pursuit)"), () => {
+        it("Should return the reminder for the Bloc Address Assignment (Learning is a life-long pursuit)", () => {
             expect(this.menu.remindMe()).toBe("Learning is a life-long pursuit");
-        }
+        });
     });
   });
